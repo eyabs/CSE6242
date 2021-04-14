@@ -1,0 +1,17 @@
+.pagebreak { page-break-before: always; }
+.axis path,
+.axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-family: sans-serif;
+    font-size: 11px;
+}
+
+.rect-point {
+    fill:none;
+    stroke: blue;
+}

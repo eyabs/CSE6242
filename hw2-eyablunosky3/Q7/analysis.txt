@@ -1,0 +1,20 @@
+1.Ease to develop (for developers)
+    R: Moderatly difficult.
+    Tableau: Not too difficult, easier than R.
+    D3: Very difficult to develop.
+2.Ease to maintain the visualization (for developers)
+    R: Difficult outside of generating ad-hoc reports.
+    Tableau: Somewhat easy.
+    D3: Difficult, requires hosting a website and sensitive to changing data.
+3.Usability of visualization developed (for end users)
+    R: Not very useful.
+    Tableau: Highly useful.
+    D3: Highly useful.
+4.Scalability of visualization to “large” datasets
+    R: Somewhat scalable.
+    Tableau: Somewhat more scalable than R and D3.
+    D3: Somewhat scalable.
+5.System requirements to run the visualization (for end users)
+    R: Very low, mostly uses static visualizaitons.
+    Tableau: Requires desktop client or browser (license required).
+    D3: No license, only requires browser.

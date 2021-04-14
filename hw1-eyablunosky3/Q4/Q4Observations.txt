@@ -1,0 +1,11 @@
+c(i): 
+    488
+c(ii): 
+    split(value, ",")[0]
+c(iii):
+    nominal: province
+    ordinal: none
+c(iv): 
+    contains("GA", value)
+c(v):
+    replace(replace(value, "http://", ""), "https://", "")

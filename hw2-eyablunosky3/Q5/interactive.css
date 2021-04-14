@@ -1,0 +1,39 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857;
+  color: #333333;
+  background-color: #fff; }
+
+.title {
+    font-size: 14pt;
+    font-weight: bold;
+}
+.title, .text-center {
+    text-align: center;
+}
+.text-bold {
+  font-weight: bold;
+}
+path { 
+    stroke: #4682b4;
+    stroke-width: 2;
+    fill: none;
+}
+.axis path,
+.axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-family: sans-serif;
+    font-size: 11px;
+}
+rect {
+  fill: #666;
+}
+rect.hoverable:hover{
+  fill: #66F;
+}

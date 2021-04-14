@@ -1,0 +1,8 @@
+Average node degree:    1.517
+    This metric represents the average number of edges connected to a node.
+
+Diameter of the graph:  7
+    This metric represents the longest geodesic between any two nodes.
+
+Average path length:    2.579
+    This is the average length of the geodesics between all possible pairs of nodes.

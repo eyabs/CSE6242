@@ -1,0 +1,3 @@
+(a.2) IMDB Rating vs Wins+Noms is better at separating the two classes. Using Wins+noms to predict good/bad rating is much better than Budget because few movies with a large number of Wins+Noms have a bad rating. There is no similar separation for Budget.
+
+(c) Square roots scales and log scales are useful to normalize the distribution of data stretched out over orders of magnitudes. They additionally can flatten non-linear trends. Log scales are useful to show data where a change in one variable will cause a percentagewise change in another variable.

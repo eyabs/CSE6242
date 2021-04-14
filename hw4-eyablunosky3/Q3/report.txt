@@ -1,0 +1,65 @@
+****************************************
+Q3.1
+
+Linear Regression - 
+	Training Accuracy: 86%
+	Testing Accuracy: 82%
+
+SVM -
+	Training Accuracy: 100%
+	Testing Accuracy: 80%
+
+MLP - 
+	Training Accuracy: 96%
+	Testing Accuracy: 80%
+
+Random Forest - 
+	Training Accuracy: 100%
+	Testing Accuracy: 96%
+
+****************************************
+Q3.2 - Hyperparameter tuning
+
+Random Forest - 
+	n_estimators values tested (at least 3): 
+		[25, 50, 100]
+
+	max_depth values tested (at least 3): 
+		[8, 32, 2277, None]
+
+	Best combination of parameter values:
+		n_estimators: 50
+		max_depth: None
+
+	Testing Accuracy before tuning (default parameters): 96%
+	Testing Accuracy after tuning: 96%
+
+
+SVM -
+	Kernels values tested: rbf, linear
+	C values tested (at least 3): 
+		[0.001, 0.1, 10]
+
+	Best combination of parameter values: 
+		Kernel: rbf
+		C: 10
+
+	Testing Accuracy before tuning (default parameters): 80%
+	Testing Accuracy after tuning: 97%
+
+****************************************
+Q3.3
+
+For your SVM's CV run from Q3.2, state the highest mean testing accuracy 
+across the sets of parameter values and its corresponding mean train score and mean fit time. 
+
+SVM's highest mean testing/cross-validated accuracy (best score): 97%
+SVM's mean train score: 100%
+SVM's mean fit time: 0.111
+
+****************************************
+Q3.4
+
+Best Classifier: Random Forest.
+Why: Does not overfit, accuracy comparable to SVM, but runs much faster than SVM.
+

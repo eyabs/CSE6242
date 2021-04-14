@@ -1,0 +1,17 @@
+Linear Regression Classifier Train Accuracy (untuned): 86%
+Linear Regression Classifier Test Accuracy (untuned): 82%
+MLP Classifier Train Accuracy (untuned): 96%
+MLP Classifier Test Accuracy (untuned): 80%
+Random Forest Classifier Train Accuracy (untuned): 100%
+Random Forest Classifier Test Accuracy (untuned): 96%
+Random Forest Classifier Best Params: {'max_depth': None, 'n_estimators': 50}
+Random Forest Classifier Best Score: 97%
+Random Forest Classifier Test Accuracy (CV Tuned): 96%
+SVM Classifier Train Accuracy (untuned): 100%
+SVM Classifier Test Accuracy (untuned): 80%
+SVM Classifier Best Params: {'C': 10, 'kernel': 'rbf'}
+SVM Classifier Best Score: 97%
+SVM Classifier Test Accuracy (CV Tuned): 97%
+SVM Classifier Mean Train Score: 100%
+SVM Classifier Mean Train Score: 97%
+SVM Classifier Mean Fit Time: 0.111

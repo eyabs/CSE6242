@@ -1,0 +1,31 @@
+path.link {
+  fill: none;
+  stroke: #666;
+  stroke-width: 1.5px;
+}
+
+path.red {
+  stroke: #EF1010;
+}
+
+path.blue {
+  stroke: #0101EF;
+}
+
+circle {
+  fill: #EEE;
+  stroke: #CCC;
+  stroke-width: 1.5px;
+}
+
+g.fixed > circle {
+  fill:#CCC;
+  stroke: #AAA;
+  stroke-width:2.5px;
+}
+
+text {
+  fill: #000;
+  font: 10px sans-serif;
+  pointer-events: none;
+}
